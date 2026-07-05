@@ -1,0 +1,17 @@
+.glass-container {
+  /* Fondo semi-transparente */
+  background: rgba(255, 255, 255, 0.15);
+
+  /* Borde redondeado sutil */
+  border-radius: 16px;
+
+  /* Sombra para dar profundidad (separación del fondo) */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+  /* El desenfoque clave del cristal */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); /* Soporte para Safari */
+
+  /* Borde blanco con baja opacidad para el reflejo */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
